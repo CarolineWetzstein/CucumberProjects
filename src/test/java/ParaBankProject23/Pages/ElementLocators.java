@@ -1,7 +1,7 @@
-package Pages;
+package ParaBankProject23.Pages;
 
-import Utilities.MyMethods;
-import Utilities.ParameterDriver;
+import ParaBankProject23.Utilities.MyMethods;
+import ParaBankProject23.Utilities.ParameterDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

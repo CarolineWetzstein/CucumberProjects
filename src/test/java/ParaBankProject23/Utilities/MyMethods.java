@@ -1,4 +1,4 @@
-package Utilities;
+package ParaBankProject23.Utilities;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

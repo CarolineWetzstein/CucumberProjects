@@ -1,7 +1,7 @@
-package StepDefinitions;
+package ParaBankProject23.StepDefinitions;
 
-import Utilities.ParameterDriver;
-import Pages.ElementLocators;
+import ParaBankProject23.Utilities.ParameterDriver;
+import ParaBankProject23.Pages.ElementLocators;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;

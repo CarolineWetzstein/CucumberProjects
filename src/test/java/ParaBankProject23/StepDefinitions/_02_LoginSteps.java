@@ -1,6 +1,6 @@
-package StepDefinitions;
+package ParaBankProject23.StepDefinitions;
 
-import Pages.ElementLocators;
+import ParaBankProject23.Pages.ElementLocators;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

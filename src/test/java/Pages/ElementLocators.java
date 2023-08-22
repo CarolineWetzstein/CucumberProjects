@@ -1,4 +1,4 @@
-package _23_ParaBankProject._03_Pages;
+package Pages;
 
 import Utilities.MyMethods;
 import Utilities.ParameterDriver;
@@ -42,7 +42,7 @@ public class ElementLocators extends MyMethods {
     public WebElement userName;
 
     @FindBy(id = "customer.password")
-    public WebElement password;
+    public WebElement passWord;
 
     @FindBy(id = "repeatedPassword")
     public WebElement passwordConfirm;
@@ -57,12 +57,12 @@ public class ElementLocators extends MyMethods {
     public WebElement username;
 
     @FindBy(name = "password")
-    public WebElement passWord;
+    public WebElement password;
 
     @FindBy(className = "button")
     public WebElement loginButton;
 
-    @FindBy(xpath = "//a[text()='Log Out']")
+    @FindBy(xpath = "//a[text()='Log In']")
     public WebElement loginLink;
 
     @FindBy(xpath = "//a[text()='Bill Pay']")

@@ -6,7 +6,7 @@ Feature: Register Functionality
     Given Navigate to ParaBank webpage
     When Click on register link
     And Fill form with valid data
-      | CGroup4C            |
+      | CGroup4             |
       | Techno              |
       | 12 Einstein street  |
       | Berlin              |
@@ -14,8 +14,8 @@ Feature: Register Functionality
       |85236                |
       | 20214587            |
       | 302545546           |
-      | CGroup4C            |
-      | Qwerty+12C          |
-      | Qwerty+12C          |
+      | CGroup4             |
+      | Qwerty+12           |
+      | Qwerty+12           |
     And Click on Register button
     Then Success message should be displayed

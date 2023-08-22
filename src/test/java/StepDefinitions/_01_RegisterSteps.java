@@ -1,7 +1,7 @@
-package _23_ParaBankProject._02_StepDefinitions;
+package StepDefinitions;
 
 import Utilities.ParameterDriver;
-import _23_ParaBankProject._03_Pages.ElementLocators;
+import Pages.ElementLocators;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -37,7 +37,7 @@ public class _01_RegisterSteps {
         el.sendKeysMethod(el.phoneLine, rows.get(6));
         el.sendKeysMethod(el.ssnLine, rows.get(7));
         el.sendKeysMethod(el.userName, rows.get(8));
-        el.sendKeysMethod(el.password, rows.get(9));
+        el.sendKeysMethod(el.passWord, rows.get(9));
         el.sendKeysMethod(el.passwordConfirm, rows.get(10));
 
     }

@@ -4,7 +4,7 @@
     <test name="Register">
         <parameter name="browser" value="firefox"></parameter>
         <classes>
-        <class name="Runners.RunnerRegister"></class>
+        <class name="Runners.RegisterRunner"></class>
         </classes>
     </test>
 </suite>

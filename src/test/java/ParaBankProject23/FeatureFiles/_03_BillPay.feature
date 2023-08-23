@@ -11,16 +11,16 @@ Feature: Bill Pay Functionality
   Scenario Outline: Bill Payment
 When Click on Bill Pay Link
 And Fill form information
-| Field         | Value               |
-| Payee Name    | "<PayeeName>"       |
-| Address       | "<Address>"         |
-| City          | "<City>"            |
-| State         | "<State>"           |
-| Zip code      | "<ZipCode>"         |
-| PhoneNumber   | "<PhoneNumber>"     |
-| Account       | "<Account>"         |
-| Verify Accout | "<VerifyAccount>"   |
-| Amount        | "<Amount>"          |
+| Field         | Value             |
+| Payee Name    | <PayeeName>       |
+| Address       | <Address>         |
+| City          | <City>            |
+| State         | <State>           |
+| Zip code      | <ZipCode>         |
+| PhoneNumber   | <PhoneNumber>     |
+| Account       | <Account>         |
+| Verify Accout | <VerifyAccount>   |
+| Amount        | <Amount>          |
 
 And Click on send payment button
 Then Verify successful payment

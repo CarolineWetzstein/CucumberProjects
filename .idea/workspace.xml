@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1d201a9-38ef-41fd-984d-6e4d368d71f6" name="Changes" comment="ParaBank Project first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankProject23/FeatureFiles/_03_BillPay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParaBankProject23/FeatureFiles/_03_BillPay.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankProject23/Runners/BillPayRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParaBankProject23/Runners/BillPayRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankProject23/Runners/LoginRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParaBankProject23/Runners/LoginRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankProject23/Runners/RegisterRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParaBankProject23/Runners/RegisterRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankProject23/StepDefinitions/_01_RegisterSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParaBankProject23/StepDefinitions/_01_RegisterSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankProject23/StepDefinitions/_03_BillPaySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParaBankProject23/StepDefinitions/_03_BillPaySteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
       <recent name="C:\Users\techno.study\IdeaProjects\FridayProjectsTS\src\test\java\Utilities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\techno.study\IdeaProjects\FridayProjectsTS\src\test\resources" />
       <recent name="C:\Users\techno.study\IdeaProjects\FridayProjectsTS\src\test\java\XMLFiles" />
       <recent name="C:\Users\techno.study\IdeaProjects\FridayProjectsTS\src\test\java\_01_FeatureFiles" />
     </key>
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692715065347</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ParaBank Project first commit">
+      <created>1692799358730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692799358730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

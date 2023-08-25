@@ -7,6 +7,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -49,6 +50,7 @@ public class _01_RegisterSteps {
 
     @Then("Success message should be displayed")
     public void successMessageShouldBeDisplayed() {
+        el.waitUntilClickable(el.successMessage1);
         el.assertText(el.successMessage1, "created");
     }
 }

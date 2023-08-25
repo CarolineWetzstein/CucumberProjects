@@ -35,38 +35,38 @@ public class _03_BillPaySteps {
         el.clickMethod(el.billPayLink);
     }
 
- //   private static int index = 0;
+    private static int index = 0;
     @And("Fill form information")
     public void fillFormInformation(DataTable formInfo) {
-        List<Map<String,String>> rows = formInfo.asMaps(String.class, String.class);
-       // List<List<String> formList = formInfo.asLists(String.class);
+       // List<Map<String,String>> rows = formInfo.asMaps(String.class, String.class);
+        List<List<String>> formList = formInfo.asLists(String.class);
 
-        for (Map<String, String> row: rows){
-            String field = row.get("Field");
-            String value = row.get("Value");
+//        for (Map<String, String> row: rows){
+//            String field = row.get("Field");
+//            String value = row.get("Value");
+//
+//           el.sendKeysMethod(el.payeeName, row.get("Payee Name"));
+//            el.sendKeysMethod(el.addressInput, row.get("Address"));
+//            el.sendKeysMethod(el.cityInput, row.get("City"));
+//            el.sendKeysMethod(el.stateInput, row.get("State"));
+//            el.sendKeysMethod(el.zipCodeInput, row.get("Zip Code"));
+//            el.sendKeysMethod(el.phoneNumber, row.get("Phone Number"));
+//            el.sendKeysMethod(el.accountNumber, row.get("Account Number"));
+//            el.sendKeysMethod(el.verifyAccount, row.get("Verify Account"));
+//            el.sendKeysMethod(el.amount, row.get("Amount"));
+//        }
 
-           el.sendKeysMethod(el.payeeName, row.get("Payee Name"));
-            el.sendKeysMethod(el.addressInput, row.get("Address"));
-            el.sendKeysMethod(el.cityInput, row.get("City"));
-            el.sendKeysMethod(el.stateInput, row.get("State"));
-            el.sendKeysMethod(el.zipCodeInput, row.get("Zip Code"));
-            el.sendKeysMethod(el.phoneNumber, row.get("Phone Number"));
-            el.sendKeysMethod(el.accountNumber, row.get("Account Number"));
-            el.sendKeysMethod(el.verifyAccount, row.get("Verify Account"));
-            el.sendKeysMethod(el.amount, row.get("Amount"));
-        }
+        el.sendKeysMethod(el.payeeName, formList.get(0).get(index));
+        el.sendKeysMethod(el.addressInput, formList.get(1).get(index));
+        el.sendKeysMethod(el.cityInput, formList.get(2).get(index));
+        el.sendKeysMethod(el.stateInput, formList.get(3).get(index));
+        el.sendKeysMethod(el.zipCodeInput, formList.get(4).get(index));
+        el.sendKeysMethod(el.phoneNumber, formList.get(5).get(index));
+        el.sendKeysMethod(el.accountNumber, formList.get(6).get(index));
+        el.sendKeysMethod(el.verifyAccount, formList.get(7).get(index));
+        el.sendKeysMethod(el.amount, formList.get(8).get(index));
 
-//        el.sendKeysMethod(el.payeeName, formList.get(0).get(index));
-//        el.sendKeysMethod(el.addressInput, formList.get(1).get(index));
-//        el.sendKeysMethod(el.cityInput, formList.get(2).get(index));
-//        el.sendKeysMethod(el.stateInput, formList.get(3).get(index));
-//        el.sendKeysMethod(el.zipCodeInput, formList.get(4).get(index));
-//        el.sendKeysMethod(el.phoneNumber, formList.get(5).get(index));
-//        el.sendKeysMethod(el.accountNumber, formList.get(6).get(index));
-//        el.sendKeysMethod(el.verifyAccount, formList.get(7).get(index));
-//        el.sendKeysMethod(el.amount, staticList.get(8).get(index));
-
-    //    index++;
+        index++;
     }
 
     @And("Click on Send Payment")
